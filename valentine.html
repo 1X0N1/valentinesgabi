@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will You Be My Valentine?</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-image: url('inimi.jpg');
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+    .container {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+      position: relative;
+    }
+    .container:before {
+      content: "";
+      background-image: url('https://i.pinimg.com/originals/0c/f3/b8/0cf3b8e268c8eb15e0c742f197d41c0b.jpg');
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      position: absolute;
+      top: -50px;
+      left: -50px;
+      right: -50px;
+      bottom: -50px;
+      z-index: -1;
+      filter: blur(5px);
+    }
+    h1 {
+      font-size: 3rem;
+      color: #ea5455;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2rem;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    button {
+      background-color: #ea5455;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin: 0 10px;
+      transition: all 0.3s ease;
+    }
+    button:hover {
+      background-color: #d84345;
+    }
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p>Esti o persoana minunata cu care apreciez si iubesc fiecare moment petrecut impreuna,sunt extrem de recunoscator ca esti in viata mea.Te iubesc Gabi,probabil crezi ca o zic asa din reflex si ca nu inseamna nimic si nu te invinuiesc pentru asta dar pe zi ce trece te iubesc si ador din ce in ce mai mult si nu exagerez,fiecare "te iubesc" e spus din suflet si inseamna foarte mult pentru mine.Seara adorm cu zâmbetul pe buze, pentru că ştiu că te voi visa, de dimineata am trezesc cu un zâmbet, pentru că nu esti doar un vis.
+                                                     Te iubesc din adancul sufletului meu!</p>
+    <h1>Will You Be My Valentine?</h1>
+ 
+ <button onclick="doSomething()">Da!</button>
+<p id="test">.</p>
+<script>
+function doSomething(){
+document.getElementById("test").innerHTML="YEEEEEEY"
+}
+
+
+
+
+
+
+  </script>
+</body>
+</html>
